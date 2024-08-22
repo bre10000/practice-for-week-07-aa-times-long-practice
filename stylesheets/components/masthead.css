@@ -1,0 +1,100 @@
+/* Your code here */
+
+.masthead {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.masthead__menu-and-search {
+    grid-column: 1;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.masthead__actions {
+    grid-column: 3;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.masthead__technologies {
+    grid-column: 2;
+
+    display: flex;
+    justify-content: center;
+}
+
+.masthead__date {
+    grid-column: 1;
+    display: flex;
+    align-items: end;
+
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+}
+
+.masthead__logo {
+    grid-column: 2;
+
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+}
+
+.masthead__paper {
+    grid-column: 3;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+}
+
+.icon-button {
+    font-size: 11px;
+    padding: 7px 9px;
+}
+
+.icon-button:hover {
+    background-color: #f7f7f5;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.masthead__technologies-content {
+    display: inline-flex;
+    justify-content: center;
+
+    border: 1px solid #e2e2e2;
+    border-bottom: none;
+    border-radius: 5px;
+    padding: 0 5px;
+    background-color: white;
+
+    position: relative;
+    top: 1px;
+}
+
+.tech-name {
+    font-size: 10px;
+    color: #6f6f6f;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.tech-name:last-child {
+    margin-right: 0;
+}
+
+
+.masthead__date-text, .masthead__paper-text {
+    font-size: 11px;
+}
